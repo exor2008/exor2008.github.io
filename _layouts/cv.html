@@ -1,0 +1,42 @@
+---
+layout: base
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>{{ site.title }}</h1>
+    </header>
+
+    <main>
+      {{ content }} {% for job in site.data.jobs %}
+      <div class="job">
+        <div class="title">{{ job.title }}</div>
+        <div class="details">
+          <div class="company">{{ job.company }}</div>
+          <div class="dates">{{ job.dates }}</div>
+        </div>
+        <div class="projects">
+          {% for project in job.projects %}
+          <div class="project">
+            <div class="description">{{ project.description }}</div>
+            <div class="technology-stack">
+              {% for stack in project.stack %}
+              <div class="technology">{{ stack }}</div>
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </main>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+- title: Software Engineer
+  company: Example Corp
+  dates: January 2020 - Present
+  description: |
+    Responsibilities:
+    - Write clean, maintainable code
+    - Collaborate with cross-functional teams
+
+  projects:
+    - title: Project1
+      description: |
+        Project description
+      stack:
+        - JavaScript
+        - HTML/CSS
+        - Git
+
+- title: Data Analyst
+  company: Data Insights LLC
+  dates: June 2018 - December 2019
+  description: |
+    Responsibilities:
+    - Analyze and interpret data
+    - Develop data visualizations
+  projects:
+    - title: Project2
+      description: |
+        Project description
+      stack:
+        - HTML/CSS
+        - Git
+        - JavaScript
