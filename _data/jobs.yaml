@@ -1,23 +1,31 @@
-- title: Software Engineer
-  company: Example Corp
-  dates: January 2020 - Present
+- title: Fullstack developer
+  company: Vintelligent, inc
+  dates: November 2023 - Present
+  address: San Mateo, CA 94402, USA
+  site: https://vintelligent.com
   description: |
-    Responsibilities:
-    - Write clean, maintainable code
-    - Collaborate with cross-functional teams
-
+    VinTelligent, Inc. provides technology products and services 
+    for the transportation industry including mission-critical business analysis, 
+    application design and development, system integration, and data center 
+    application hosting services.
   projects:
-    - title: Project1
+    - title: Yard Planning
       description: |
-        Project description
+        I've been expanding the functionality of the Yard Planning software - 
+        web framework for managing the arrival, storage and departure of vehicles.
+        Ability to quickly change the state of hundreds of VIN numbers in a single operation has been added, 
+        instead of processing each number individually.
       stack:
+        - C#
+        - ASP.NET
         - JavaScript
         - HTML/CSS
-        - Git
+        - PostgreSQL
 
-- title: Data Analyst
-  company: Data Insights LLC
+- title: Dummy
+  company: Dummy LLC
   dates: June 2018 - December 2019
+  address: Saint-Petersburg, Russia
   description: |
     Responsibilities:
     - Analyze and interpret data

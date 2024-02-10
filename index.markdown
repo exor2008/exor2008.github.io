@@ -6,10 +6,6 @@ layout: cv
 title: Elchaninov Ian
 ---
 
-# Elchaninov Ian
-
-### _Python/Rust software engineer_
-
 ---
 
 ## Overview

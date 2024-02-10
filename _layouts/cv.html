@@ -12,20 +12,33 @@ layout: base
   </head>
   <body>
     <header>
-      <h1>{{ site.title }}</h1>
+      <div class="employee-info">
+        <h1 class="name">{{ site.data.author.name }}</h1>
+        <h2 class="job-title">{{ site.data.author.title }}</h2>
+      </div>
     </header>
 
     <main>
-      {{ content }} {% for job in site.data.jobs %}
+      <!-- prettier-ignore-start -->
+      {{ content }}
+
+      <!-- prettier-ignore-end -->
+
+      <h2>Career History</h2>
+      {% for job in site.data.jobs %}
       <div class="job">
         <div class="title">{{ job.title }}</div>
         <div class="details">
           <div class="company">{{ job.company }}</div>
           <div class="dates">{{ job.dates }}</div>
         </div>
+        <div class="address">{{ job.address }}</div>
+        <a href="{{ job.site }}">{{ job.site }}</a>
+        <div class="company-description">{{ job.description }}</div>
         <div class="projects">
           {% for project in job.projects %}
           <div class="project">
+            <h3>{{ project.title }}</h3>
             <div class="description">{{ project.description }}</div>
             <div class="technology-stack">
               {% for stack in project.stack %}
@@ -34,6 +47,20 @@ layout: base
             </div>
           </div>
           {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+      <hr />
+
+      <h2>Education</h2>
+      {% for education in site.data.education %}
+      <div class="job">
+        <div class="title">{{ education.title }}</div>
+        <div class="address">{{ education.address }}</div>
+        <a href="{{ education.site }}">{{ education.site }}</a>
+        <div class="details">
+          <div class="company">{{ education.graduate }}</div>
+          <div class="dates">{{ education.dates }}</div>
         </div>
       </div>
       {% endfor %}

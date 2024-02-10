@@ -23,6 +23,17 @@
   color: #666;
 }
 
+.company-description {
+  width: 70%;
+  margin-top: 3ex;
+  color: #666;
+}
+
+.address {
+  font-size: 14px;
+  color: #888;
+}
+
 .dates {
   font-size: 18px;
   color: #666;
@@ -63,4 +74,22 @@
   right: -10px;
   border: 10px solid transparent;
   border-top-color: #ccc;
+}
+
+.employee-info {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.name {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.job-title {
+  font-size: 1.5rem;
+  color: #666;
+  margin-top: 0;
 }
