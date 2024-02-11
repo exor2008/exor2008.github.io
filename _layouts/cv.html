@@ -41,9 +41,11 @@ layout: base
             <h3>{{ project.title }}</h3>
             <div class="description">{{ project.description }}</div>
             <div class="technology-stack">
-              {% for stack in project.stack %}
+              {% for stack in project.stack %} {% if stack == "Python" %}
+              <div class="technology python">{{ stack }}</div>
+              {% else %}
               <div class="technology">{{ stack }}</div>
-              {% endfor %}
+              {% endif %} {% endfor %}
             </div>
           </div>
           {% endfor %}

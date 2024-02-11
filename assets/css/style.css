@@ -67,6 +67,10 @@
   margin-bottom: 5px;
 }
 
+.python {
+  background-color: #ffde45;
+}
+
 .technology-stack::after {
   content: "";
   position: absolute;

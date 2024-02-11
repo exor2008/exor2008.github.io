@@ -5,15 +5,15 @@
   site: https://vintelligent.com
   description: |
     VinTelligent, Inc. provides technology products and services 
-    for the transportation industry including mission-critical business analysis, 
+    for the <code>transportation industry</code> including mission-critical business analysis, 
     application design and development, system integration, and data center 
     application hosting services.
   projects:
     - title: Yard Planning
       description: |
-        I've been expanding the functionality of the Yard Planning software - 
+        I've been expanding the functionality of the <code>Yard Planning</code> software - 
         web framework for managing the arrival, storage and departure of vehicles.
-        Ability to quickly change the state of hundreds of VIN numbers in a single operation has been added, 
+        Ability to quickly change the state of <code>hundreds of VIN</code> numbers in a single operation has been added, 
         instead of processing each number individually.
       stack:
         - C#
@@ -22,19 +22,82 @@
         - HTML/CSS
         - PostgreSQL
 
-- title: Dummy
-  company: Dummy LLC
-  dates: June 2018 - December 2019
+- title: Leading programmer
+  company: Gazprom-Neft Digital Solutions
+  dates: December 2017 - April 2023
   address: Saint-Petersburg, Russia
+  site: ds.gazprom-neft.ru
   description: |
-    Responsibilities:
-    - Analyze and interpret data
-    - Develop data visualizations
+    System integrator and software developer. A subsidiary of PJSC <code>Gazprom Neft</code>.
+    The history of the company is a long way, which began on April 1, 2008 – 
+    it was on this day that a new structure was created on the basis of <code>IT</code>, 
+    communications, <code>automated control systems</code>, instrumentation and control systems 
+    of Gazprom Neft and SIBUR to serve the needs of business partners in the field of information technology.
   projects:
-    - title: Project2
+    - title: Comprehensive assessment of geological knowledge.
       description: |
-        Project description
+        The project is a plug-in to another internal product - <code>Geomate</code>.
+        The plugin allows a geologist to evaluate the geological study of the deposit and plan its further development. 
+        The assessment is based on a set of geological studies: logging, 2D/3D seismics, waterlogging, 
+        sand/clay index, natural radiation level. 
+        Many <code>optimization algorithms</code> have been applied to solve the problem, including a 
+        <code>Genetic algorithm</code> to find the optimal position for a new exploration well.
       stack:
-        - HTML/CSS
-        - Git
-        - JavaScript
+        - Python
+        - SciPy/numpy
+
+    - title: Spectral Geomodeling
+      description: |
+        The project is a plug-in to the famous geological software - <code>Schlumberger</code>.
+        The plugin allowed a geologist to calculate a three-dimensional cube of rock for 
+        any geological property (logging, sand / clay) based on a set of geological data, 
+        such as: rock layers, wells and studies conducted on them.
+        The result is an interpolation of the interwell space based on the <code>spectral-basis method</code>.
+      stack:
+        - C#
+        - C/C++
+        - Eigen
+
+    - title: Mobile API
+      description: |
+        The task was to develop an <code>API</code> for mobile applications (IOS, Android) 
+        of the already existing website of the Salavat Yulaev hockey team from Ufa, 
+        sponsored by Gazprom-Neft. The site is based on the <code>Django</code> framework, 
+        so the Django API and the entire rich ecosystem of this framework, 
+        including django <code>ORM</code>, were chosen to solve the problem.
+      stack:
+        - Django
+        - Python
+        - PostgreSQL
+
+    - title: Geonavigator
+      description: |
+        Development of the <code>Spectral Geonavigation</code> project.
+        This time, the task was to support the drilling operation in real time. 
+        Using the Spectral Geonavigation algorithm, a 2D slice is constructed along 
+        the drilling axis and interwell space is calculated. The section is constantly 
+        being rebuilt as the drill progresses and updated information is received.
+        The project is a self-contained <code>client-server</code> solution. 
+        A <code>GPU shader</code> has been developed for the client to 
+        display geological data in high resolution in real time.
+      stack:
+        - Python
+        - Tornado
+        - PyQt
+        - GLSL
+        - Protobuf
+
+    - title: Geomate 3.0
+      description: |
+        Further evolution of geomate software. Geomate is becoming a <code>web-based platform</code>.
+        My team's tasks included the development of a <code>microservice</code> for storing and processing
+         3D seismic data. Such data can be of impressive size, one cube is about <code>100 GB</code>. 
+         It was required to provide slices of such cubes in various configurations in <code>real time</code>. 
+         The final product was a set of <code>Docker</code> images on <code>Red Hat Linux</code>.
+      stack:
+        - Docker
+        - Python
+        - numpy
+        - JIT
+        - FastAPI
+        - RedHat Linux
