@@ -68,7 +68,7 @@
 }
 
 .python {
-  background-color: #ffde45;
+  background-color: #ff986d;
 }
 
 .technology-stack::after {
@@ -78,6 +78,8 @@
   right: -10px;
   border: 10px solid transparent;
   border-top-color: #ccc;
+  margin-top: 7px;
+  margin-bottom: 2em;
 }
 
 .employee-info {
