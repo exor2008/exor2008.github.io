@@ -26,7 +26,7 @@
   company: Gazprom-Neft Digital Solutions
   dates: December 2017 - April 2023
   address: Saint-Petersburg, Russia
-  site: ds.gazprom-neft.ru
+  site: https://ds.gazprom-neft.ru
   description: |
     System integrator and software developer. A subsidiary of PJSC <code>Gazprom Neft</code>.
     The history of the company is a long way, which began on April 1, 2008 – 
@@ -101,3 +101,65 @@
         - JIT
         - FastAPI
         - RedHat Linux
+
+- title: Leading engineer-programmer
+  company: |
+    The Special Construction
+    Bureau of Automation
+    Tools for Marine Research
+    of the Far-Eastern Branch
+    of the Russian Academy of
+    Sciences
+  dates: December, 2014 - November, 2016
+  address: Yuzhno-Sakhalinsk, Russia
+  site: https://skbsami.ru/
+  description: |
+    SCB SAMI FEB RAS was organized on July 1, 1978 as SCB SAMI of the <code>USSR Academy of Sciences</code> on 
+    the basis of the existing SCB of <code>marine seismoacoustic equipment</code> and the Department of 
+    <code>Hydroacoustics</code> of the Sakhalin Integrated Research Institute (now renamed the Institute 
+    of Marine Geology and Geophysics FEB RAS)
+    Currently, the SCB SAMI FEB RAS includes <code>scientific</code> and design departments, 
+    <code>experimental production</code>, as well as hydrophysical hospitals on the coast of Iturup Island. 
+    This makes it possible to carry out a full range of <code>exploratory research</code> and development work, 
+    including the manufacture and testing of new samples of special <code>marine equipment</code> 
+    and <code>automated systems</code> for collecting telemetric information about the state of the sea and atmosphere.
+
+  projects:
+    - title: Continental shelf protection.
+      description: |
+        A project to develop a <code>simulator</code> of a detection, 
+        recognition and <code>tracking</code> system that protects coastal areas.
+        <code>Tracking algorithms</code> based on noisy data were used to solve this problem.
+      stack:
+        - C/C++
+        - Python
+        - Tornado
+        - protobuf
+
+- title: Leading engineer-programmer
+  company: |
+    Corporation Space Systems of a Special Purpose. Comet.
+  dates: June, 2014 - January, 2018
+  address: Moscow, Russia
+  site: https://corpkometa.ru/
+  description: |
+    JSC "Comet Corporation" is a leading enterprise of the military-industrial complex in the 
+    field of creating <code>large information and control systems</code> for special purposes.
+    JSC "Corporation "Comet" carries out work in the following areas:<br/>
+    <ul>
+    <li>creation of <code>space systems</code> for all-weather observation of the Earth and the World Ocean;</li>
+    <li>creation of a <code>space monitoring</code> system for outer space and identification of asteroid and comet hazards;</li>
+    <li>creation of a <code>global ocean monitoring system</code> using <code>underwater telecommunications</code> facilities.</li>
+    </ul>
+
+  projects:
+    - title: Continental shelf protection.
+      description: |
+        A project to develop a <code>simulator</code> of a detection, 
+        recognition and <code>tracking</code> system that protects coastal areas.
+        <code>Tracking algorithms</code> based on noisy data were used to solve this problem.
+      stack:
+        - C/C++
+        - Python
+        - Tornado
+        - protobuf

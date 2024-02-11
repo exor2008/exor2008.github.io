@@ -40,16 +40,6 @@ layout: base
           })
         );
 
-        // // Add chart title
-        // var title = container.children.push(
-        //   am5.Label.new(root, {
-        //     text: "Most popular languages on StackOverflow",
-        //     fontSize: 20,
-        //     x: am5.percent(50),
-        //     centerX: am5.percent(50),
-        //   })
-        // );
-
         // Add series
         // https://www.amcharts.com/docs/v5/charts/word-cloud/
         var series = container.children.push(
@@ -152,10 +142,11 @@ layout: base
         <div class="address">{{ job.address }}</div>
         <a href="{{ job.site }}">{{ job.site }}</a>
         <div class="company-description">{{ job.description }}</div>
+        <h3 class="project-titile">Projects:</h3>
         <div class="projects">
           {% for project in job.projects %}
           <div class="project">
-            <h3>{{ project.title }}</h3>
+            <h3 class="project-header">{{ project.title }}</h3>
             <div class="description">{{ project.description }}</div>
             <div class="technology-stack">
               {% for stack in project.stack %} {% if stack == "Python" %}
@@ -187,6 +178,7 @@ layout: base
 
       <h2>Technology Cloud</h2>
       <div id="chartdiv"></div>
+      <hr />
     </main>
   </body>
 </html>
