@@ -163,3 +163,48 @@
         - Python
         - Tornado
         - protobuf
+
+- title: Engineer-programmer
+  company: |
+    Concern Marine Underwater Weapon - Gidropribor JSC
+  dates: September, 2013 - December, 2017
+  address: Saint-Petersburg, Russia
+  site: https://gidropribor.ru/
+  description: |
+    The State Scientific Center Joint-Stock Company Concern Marine Underwater Weapons - 
+    Gidropribor is a leading organization in the field of creating <code>marine underwater weapons</code> 
+    and <code>special-purpose underwater equipment</code>.
+
+  projects:
+    - title: Control Equipment Development
+      description: |
+        I have developed software for the <code>formation of a combat mission</code> for special-purpose equipment.
+        Participated in the full testing cycle, including <code>field tests</code>.
+      stack:
+        - Python
+        - drivers
+        - embedded
+
+    - title: Hydroacoustic Signal Synthesizer
+      description: |
+        A research project.
+        Development of an <code>acoustic signal synthesizer</code> based on a regular <code>PC</code>. 
+        Development includes writing <code>low-level assembly code</code> and <code>machine commands</code>, 
+        and developing its own parallel data transfer protocol.
+      stack:
+        - C/C++
+        - Turbo Vision
+        - assembly
+        - embedded
+
+    - title: Testing spot maintaining
+      description: |
+        Preparation and maintenance of the test workplace:
+        <ul>
+        <li>Computers and communication between them</li>
+        <li>Synthesizers and attenuators</li>
+        <li>Conducting tests</li>
+        </ul>
+      stack:
+        - System administration
+        - Python
