@@ -50,3 +50,27 @@
     - Python
     - embedded
     - embassy
+
+- title: Fluid simulator
+  description: Powered by CUDA parallel computations
+  status: Done
+  links:
+    - url: https://github.com/exor2008/fluid-simulator
+      verbose: GitHub
+    - url: https://youtu.be/pCPggrFf64g
+      verbose: Demo
+  long_description: |
+    A fluid simulator based on the <code>Navier-Stokes Equations</code>.
+    It is made in the form of a mathematical module on <code>Rust + CUDA</code>, 
+    a service that provides an API to this module on the <code>Rocket</code> web framework and a 
+    frontend on <code>THREE.js</code> for displaying fluid flow in 3D. The calculation is performed in 
+    parallel on <code>CUDA</code> kernels, which allows to observe the fluid in real time.
+    Such simulators are used by <code>NASA</code> to calculate the <code>aerodynamic</code> qualities of spacecraft, 
+    as well as to <code>predict the weather</code>.
+  stack:
+    - Rust
+    - Rocket
+    - CUDA
+    - JavaScript
+    - THREE.js
+    - Python
