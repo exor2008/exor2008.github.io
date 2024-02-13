@@ -8,7 +8,6 @@
       verbose: Demo
     - url: https://youtube.com/shorts/F5HVr7ZAOYw
       verbose: Instructions Video
-
   long_description: |
     A lamp based on an LED matrix running <code>Raspberry Pi Pico</code>. 
     Designed for manufacturing from widely available materials. 
@@ -19,10 +18,35 @@
     protocols are implemented using coprocessor programming (<code>PIO</code>) 
     in a specialized <code>assembly language</code>, which makes them stable and time-accurate.
     You can assemble one for yourself. Firmware and wiring scheme are free and available via <code>github</code> link.
-
   stack:
     - Rust
     - embedded
     - embassy
     - assembly
     - RP2040
+
+- title: Flight control software
+  description: Based on RP PI Pico and Rust
+  status: Work in progress
+  links:
+    - url: https://github.com/exor2008/drone
+      verbose: GitHub
+    - url: https://youtu.be/3mVxf-AE9MU
+      verbose: Demo
+  long_description: |
+    A project to develop a flight controller based on the <code>Raspberry Pi Pico</code> platform and 
+    firmware for it in <code>Rust</code> language.
+    The 10 degrees of freedom IMU <code>MPU-9250</code> module (3-axis accelerometer, gyroscope and magnetometer) is used as a sensor.
+    At the moment, a driver has been written for the <code>MPU-9250</code> along calibration algorithms for each sensor. 
+    Data fusion is also implemented using the <code>Mahony filter</code>. 
+    FC can now determine <code>attitude</code> relative to the earth's magnetic field.
+    Debug panel was written in <code>Python</code> in both web and desktop versions.
+    In the future, a <code>PID</code> motor control loop will be developed.
+  stack:
+    - RP2040
+    - Rust
+    - JavaScript
+    - THREE.js
+    - Python
+    - embedded
+    - embassy
