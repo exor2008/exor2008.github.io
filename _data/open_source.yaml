@@ -65,6 +65,9 @@
     a service that provides an API to this module on the <code>Rocket</code> web framework and a 
     frontend on <code>THREE.js</code> for displaying fluid flow in 3D. The calculation is performed in 
     parallel on <code>CUDA</code> kernels, which allows to observe the fluid in real time.
+    The scene with the initial conditions is uploaded in <code>gltf</code> format. 
+    After loading, the <code>3D model</code> is mapped to the calculated grid. 
+    The normals of the model are taken into account to calculate <code>collisions</code> of solids with a fluid.
     Such simulators are used by <code>NASA</code> to calculate the <code>aerodynamic</code> qualities of spacecraft, 
     as well as to <code>predict the weather</code>.
   stack:
@@ -74,3 +77,27 @@
     - JavaScript
     - THREE.js
     - Python
+    - gltf
+
+- title: 1:1 Scale Planetarium
+  description: Physical model of solar system
+  status: Done
+  links:
+    - url: https://github.com/exor2008/solar-system-sim
+      verbose: GitHub
+    - url: https://youtu.be/HT2_h-bOYAo
+      verbose: Demo
+  long_description: |
+    Most often, the scale is not observed in the image of the <code>Solar system</code>. 
+    This is due to the fact that the distances between the planets are incomparably greater than their radiuses.
+    But thanks to computer interactive models, we have the opportunity to observe the real size of objects.
+    This project is a <code>simulator</code> of the Solar system, where all objects have values <code>as in nature</code>: 
+    <code>the radiuses, masses and velocities of objects, the size and inclination of their orbits</code>.
+    Thanks to a realistic physical model, it is possible to simulate "What if..." scenarios. 
+    What if we put a <code>black hole</code> in the center of our solar system, 
+    what if the speed of the <code>Earth</code> is 10 times less than in reality, etc.
+    Thanks to the architecture of the <code>Bevy Entity-Component-System</code> game engine, 
+    we can simulate tens of thousands of objects simultaneously in real time.
+  stack:
+    - Rust
+    - Bevy game engine
