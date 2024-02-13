@@ -101,3 +101,24 @@
   stack:
     - Rust
     - Bevy game engine
+
+- title: Game console
+  description: Based on RP PI Pico and Rust
+  status: Work in progress
+  links:
+    - url: https://github.com/exor2008/koldun
+      verbose: GitHub
+  long_description: |
+    DIY game console based on <code>RP PICO</code> platform and <code>Rust</code> language. <br/>
+    Solved tasks: 
+    <ul>
+    <li><code>Driver</code> has been written for the display on the <code>ILI9486</code> chip</li>
+    <li>Fitting game logic and graphics in <code>256 Kb SRAM</code> and <code>2Mb FLASH</code> memory</li>
+    </ul>
+    The driver for the display is written using a coprocessor (<code>PIO</code>) in a <code>specialized assembler</code>, 
+    which allows to display dynamic graphics with a high screen refresh rate.
+  stack:
+    - RP2040
+    - Rust
+    - embedded
+    - embassy
