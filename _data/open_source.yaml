@@ -122,3 +122,22 @@
     - Rust
     - embedded
     - embassy
+
+- title: Set of discord and telegram bots
+  description: For document management automation and AI
+  status: Done
+  links:
+    - url: https://github.com/exor2008/health_care_autofiller
+      verbose: Telegram document bot
+    - url: https://github.com/exor2008/google-ai-bot-demo
+      verbose: Discord API for Google PaLM AI
+    - url: https://github.com/exor2008/ai-discord-bot-demo
+      verbose: Discord API for OpenAI ChatGPT
+  long_description: |
+    A set of <code>Discord</code> and <code>Telegram</code> bots for solving a number of tasks: 
+    from document management automation to providing <code>APIs</code> to well-known <code>AI</code> services.
+  stack:
+    - Python
+    - Discord
+    - Telegram
+    - AI
