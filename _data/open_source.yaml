@@ -1,0 +1,28 @@
+- title: Pleiades
+  description: DIY lamp with gesture control
+  status: Done
+  links:
+    - url: https://github.com/exor2008/pleiades
+      verbose: GitHub
+    - url: https://youtu.be/gmsWFZkWBEI?si=JtCGZfpYXuNEFkyy
+      verbose: Demo
+    - url: https://youtube.com/shorts/F5HVr7ZAOYw
+      verbose: Instructions Video
+
+  long_description: |
+    A lamp based on an LED matrix running <code>Raspberry Pi Pico</code>. 
+    Designed for manufacturing from widely available materials. 
+    The firmware is written in the <code>Rust</code> language using the asynchronous 
+    framework for embedded programming <code>Embassy</code> (Embedded Rust). 
+    A driver has been written for the <code>ws2812b</code> LED device, 
+    as well as the <code>APDS-9960</code> gesture sensor. Bit-banging 
+    protocols are implemented using coprocessor programming (<code>PIO</code>) 
+    in a specialized <code>assembly language</code>, which makes them stable and time-accurate.
+    You can assemble one for yourself. Firmware and wiring scheme are free and available via <code>github</code> link.
+
+  stack:
+    - Rust
+    - embedded
+    - embassy
+    - assembly
+    - RP2040

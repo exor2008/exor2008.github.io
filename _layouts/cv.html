@@ -162,6 +162,33 @@ layout: base
       {% endfor %}
       <hr />
 
+      <h2>Open Source Projects</h2>
+      {% for project in site.data.open_source %}
+      <div class="job">
+        <div class="title">{{ project.title }}</div>
+        <div class="details">
+          <div class="company">{{ project.description }}</div>
+          <div class="dates">Status: {{ project.status }}</div>
+        </div>
+        <ul>
+          {% for link in project.links %}
+          <li><a href="{{ link.url }}">{{ link.verbose }}</a></li>
+          {% endfor %}
+        </ul>
+        <div class="description">{{ project.long_description }}</div>
+        <div class="technology-stack">
+          {% for stack in project.stack %} {% if stack == "Python" %}
+          <div class="technology python">{{ stack }}</div>
+          {% elsif stack == "Rust" %}
+          <div class="technology python">{{ stack }}</div>
+          {% else %}
+          <div class="technology">{{ stack }}</div>
+          {% endif %} {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+      <hr />
+
       <h2>Education</h2>
       {% for education in site.data.education %}
       <div class="job">
