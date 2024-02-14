@@ -55,6 +55,8 @@
   description: Powered by CUDA parallel computations
   status: Done
   links:
+    - url: https://github.com/exor2008/fluid-proto
+      verbose: Prototype
     - url: https://github.com/exor2008/fluid-simulator
       verbose: GitHub
     - url: https://youtu.be/pCPggrFf64g
