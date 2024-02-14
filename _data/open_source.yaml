@@ -8,6 +8,8 @@
       verbose: Demo
     - url: https://youtube.com/shorts/F5HVr7ZAOYw
       verbose: Instructions Video
+    - url: https://www.instagram.com/pleiades_led
+      verbose: Instagram
   long_description: |
     A lamp based on an LED matrix running <code>Raspberry Pi Pico</code>. 
     Designed for manufacturing from widely available materials. 
@@ -143,3 +145,18 @@
     - Discord
     - Telegram
     - AI
+
+- title: FPV drones
+  description: Manufacturing and Piloting
+  status: Done
+  links:
+    - url: https://www.youtube.com/channel/UC_RlYeUgry3Mc4mN7tIUUOg
+      verbose: Youtube
+    - url: https://www.instagram.com/asymmetric_fpv
+      verbose: Instagram
+  long_description: |
+    Assembling, soldering and tuning FPV drones from scratch.
+  stack:
+    - Inav
+    - ExpressLRS
+    - soldering
