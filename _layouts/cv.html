@@ -176,6 +176,7 @@ layout: base
           <div class="company">{{ project.description }}</div>
           <div class="dates">Status: {{ project.status }}</div>
         </div>
+        <b><em>Links:</em></b>
         <ul>
           {% for link in project.links %}
           <li><a href="{{ link.url }}">{{ link.verbose }}</a></li>
