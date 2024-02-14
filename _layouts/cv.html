@@ -113,15 +113,21 @@ layout: base
             weight: 20,
           },
           { tag: "REST", weight: 20 },
+          { tag: "shaders", weight: 20 },
         ]);
       }); // end am5.ready()
     </script>
   </head>
   <body>
     <header>
-      <div class="employee-info">
-        <h1 class="name">{{ site.data.author.name }}</h1>
-        <h2 class="job-title">{{ site.data.author.title }}</h2>
+      <div class="header-content">
+        <div class="employee-info">
+          <div>
+            <h1 class="name">{{ site.data.author.name }}</h1>
+            <h2 class="job-title">{{ site.data.author.title }}</h2>
+          </div>
+        </div>
+        <img src="Photo.png" alt="A beautiful sunset" />
       </div>
     </header>
 

@@ -85,9 +85,24 @@
   margin-bottom: 2em;
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .employee-info {
+  flex: 1;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 2em;
+}
+
+.header-content img {
+  width: 30%;
+  height: auto;
+  margin-left: 1em;
+  margin-right: 2em;
+  margin-bottom: 1em;
 }
 
 .name {
