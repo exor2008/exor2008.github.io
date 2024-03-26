@@ -101,6 +101,8 @@
         - JIT
         - FastAPI
         - RedHat Linux
+        - Rabbit MQ
+        - gRPC
 
 - title: Leading engineer-programmer
   company: |
