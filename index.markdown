@@ -25,5 +25,6 @@ The developed code was subject to high requirements of industry standards:
 - CI/CD DevOps practices to deliver changes to prod as soon as possible
 - Azure (ex Microsoft Team Foundation Server)
 - Git commitizen, precommits
+- VS Code, NeoVim, Nu Shell, Sublime Text
 
 ---
