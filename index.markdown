@@ -11,12 +11,10 @@ title: Elchaninov Ian
 ## Overview
 
 Hello, my name is Ian.\
-I'am a `Python/Rust` software engineer.
-During career I've been in developing of `defencive systems` and `geological software` for the oil industry.
-On the way, starting in 2013, I came across a wide range of tasks and solutions in the field of programming,
-from the low-level `embedded programming`, drivers writing to the high-loaded `microservices`, providing `API` to computational mathematical modules.\
-`Agile` methodologies, like `Scrum` and `Kanban` were actively used in the teams where I worked.\
-The developed code was subject to high requirements of industry standards:
+I'am a `Python/Rust` software engineer with experience in developing `defensive systems` and `geological` software for the `oil industry`.
+Since 2013, I have tackled a wide range of programming tasks and solutions, 
+from low-level `embedded programming` and drivers writing to high-load `microservices`, providing `API` to computational mathematical modules.\
+I am well-versed in `Agile` methodologies like `Scrum` and `Kanban` and have consistently adhered to high industry standards, including:
 
 - Test coverage
 - Static Code Analyzers
