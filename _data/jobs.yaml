@@ -4,17 +4,15 @@
   address: San Mateo, CA 94402, USA
   site: https://vintelligent.com
   description: |
-    VinTelligent, Inc. provides technology products and services 
-    for the <code>transportation industry</code> including mission-critical business analysis, 
-    application design and development, system integration, and data center 
-    application hosting services.
+    VinTelligent, Inc. offers technology solutions for the transportation sector, 
+    including business analysis, application development, system integration, and data center hosting.
   projects:
     - title: Yard Planning
       description: |
-        I've been expanding the functionality of the <code>Yard Planning</code> software - 
-        web framework for managing the arrival, storage and departure of vehicles.
-        Ability to quickly change the state of <code>hundreds of VIN</code> numbers in a single operation has been added, 
-        instead of processing each number individually.
+        <ul>
+        <li>Enhanced the Yard Planning functionality, streamlining vehicle management processes by 
+        enabling batch updates for hundreds of VINs simultaneously, vastly improving operational efficiency.
+        </ul>
       stack:
         - C#
         - ASP.NET
@@ -28,31 +26,28 @@
   address: Saint-Petersburg, Russia
   site: https://ds.gazprom-neft.ru
   description: |
-    System integrator and software developer. A subsidiary of PJSC <code>Gazprom Neft</code>.
-    The history of the company is a long way, which began on April 1, 2008 – 
-    it was on this day that a new structure was created on the basis of <code>IT</code>, 
-    communications, <code>automated control systems</code>, instrumentation and control systems 
-    of Gazprom Neft and SIBUR to serve the needs of business partners in the field of information technology.
+    Specializes in system integration and software development, providing IT, communications, 
+    and automated control solutions. Collaborates with Gazprom Neft and SIBUR to meet partners' technology needs.
   projects:
     - title: Comprehensive assessment of geological knowledge.
       description: |
-        The project is a plug-in to another internal product - <code>Geomate</code>.
-        The plugin allows a geologist to evaluate the geological study of the deposit and plan its further development. 
-        The assessment is based on a set of geological studies: logging, 2D/3D seismics, waterlogging, 
-        sand/clay index, natural radiation level. 
-        Many <code>optimization algorithms</code> have been applied to solve the problem, including a 
-        <code>Genetic algorithm</code> to find the optimal position for a new exploration well.
+        <ul>
+        <li>Developed a plug-in for Geomate, enabling geologists to evaluate and plan the development of deposits based on a comprehensive set of geological studies.
+        <li>Implemented optimization algorithms, including a Genetic algorithm, to determine optimal well placement.
+        <li>The assessment is based on a set of geological studies: logging, 2D/3D seismics, waterlogging, sand/clay index, natural radiation level.
+        </ul>
       stack:
         - Python
-        - SciPy/numpy
+        - SciPy
+        - numpy
 
     - title: Spectral Geomodeling
       description: |
-        The project is a plug-in to the famous geological software - <code>Schlumberger</code>.
-        The plugin allowed a geologist to calculate a three-dimensional cube of rock for 
-        any geological property (logging, sand / clay) based on a set of geological data, 
-        such as: rock layers, wells and studies conducted on them.
-        The result is an interpolation of the interwell space based on the <code>spectral-basis method</code>.
+        <ul>
+        <li>Developed a plugin for Schlumberger, a renowned geological software, to enhance geological analysis capabilities.
+        <li>Enabled geologists to calculate three-dimensional cubes of rock properties (e.g., logging, sand/clay) using comprehensive geological data, including rock layers, wells, and conducted studies.
+        <li>Implemented interpolation of the interwell space based on the spectral-basis method, providing more accurate geological models.
+        </ul>
       stack:
         - C#
         - C/C++
@@ -60,11 +55,10 @@
 
     - title: Mobile API
       description: |
-        The task was to develop an <code>API</code> for mobile applications (IOS, Android) 
-        of the already existing website of the Salavat Yulaev hockey team from Ufa, 
-        sponsored by Gazprom-Neft. The site is based on the <code>Django</code> framework, 
-        so the Django API and the entire rich ecosystem of this framework, 
-        including django <code>ORM</code>, were chosen to solve the problem.
+        <ul>
+        <li>Developed an API for mobile applications (iOS, Android) for the Salavat Yulaev hockey team`s existing website, sponsored by Gazprom-Neft.
+        <li>Leveraged the Django framework to create a robust API, utilizing its comprehensive ecosystem, including Django ORM, to ensure efficient data handling and integration with the existing web infrastructure.
+        </ul>
       stack:
         - Django
         - Python
@@ -72,14 +66,11 @@
 
     - title: Geonavigator
       description: |
-        Development of the <code>Spectral Geonavigation</code> project.
-        This time, the task was to support the drilling operation in real time. 
-        Using the Spectral Geonavigation algorithm, a 2D slice is constructed along 
-        the drilling axis and interwell space is calculated. The section is constantly 
-        being rebuilt as the drill progresses and updated information is received.
-        The project is a self-contained <code>client-server</code> solution. 
-        A <code>GPU shader</code> has been developed for the client to 
-        display geological data in high resolution in real time.
+        <ul>
+        <li>Led the development of the Spectral Geonavigation project, designed to support real-time drilling operations.
+        <li>Utilized the Spectral Geonavigation algorithm to construct 2D slices along the drilling axis and calculate the interwell space, dynamically updating as drilling progresses and new data is received.
+        <li>Developed a self-contained client-server solution, including a GPU shader for the client to display geological data in high resolution in real time.
+        </ul>
       stack:
         - Python
         - Tornado
@@ -89,11 +80,12 @@
 
     - title: Geomate 3.0
       description: |
-        Further evolution of geomate software. Geomate is becoming a <code>web-based platform</code>.
-        My team's tasks included the development of a <code>microservice</code> for storing and processing
-         3D seismic data. Such data can be of impressive size, one cube is about <code>100 GB</code>. 
-         It was required to provide slices of such cubes in various configurations in <code>real time</code>. 
-         The final product was a set of <code>Docker</code> images on <code>Red Hat Linux</code>.
+        <ul>
+        <li>Contributed to the further evolution of Geomate, transitioning it into a web-based platform.
+        <li>Led the development of a microservice designed to store and process large-scale 3D seismic data, with individual data cubes reaching sizes of approximately 100 GB.
+        <li>Implemented functionality to provide real-time slices of seismic data cubes in various configurations.
+        <li>Delivered the final product as a set of Docker images deployed on Red Hat Linux, ensuring scalable and efficient data processing.
+        </ul>
       stack:
         - Docker
         - Python
@@ -116,22 +108,19 @@
   address: Yuzhno-Sakhalinsk, Russia
   site: https://skbsami.ru/
   description: |
-    SCB SAMI FEB RAS was organized on July 1, 1978 as SCB SAMI of the <code>USSR Academy of Sciences</code> on 
-    the basis of the existing SCB of <code>marine seismoacoustic equipment</code> and the Department of 
-    <code>Hydroacoustics</code> of the Sakhalin Integrated Research Institute (now renamed the Institute 
-    of Marine Geology and Geophysics FEB RAS)
-    Currently, the SCB SAMI FEB RAS includes <code>scientific</code> and design departments, 
-    <code>experimental production</code>, as well as hydrophysical hospitals on the coast of Iturup Island. 
-    This makes it possible to carry out a full range of <code>exploratory research</code> and development work, 
-    including the manufacture and testing of new samples of special <code>marine equipment</code> 
-    and <code>automated systems</code> for collecting telemetric information about the state of the sea and atmosphere.
+    Established in 1978 as SCB SAMI of the USSR Academy of Sciences, 
+    specializing in marine equipment and automated systems for oceanic and atmospheric data collection. 
+    Conducts extensive research and development activities.
 
   projects:
-    - title: Continental shelf protection.
+    - title: Simulator of Detection Hardware and Environment for Continental shelf protection.
       description: |
-        A project to develop a <code>simulator</code> of a detection, 
-        recognition and <code>tracking</code> system that protects coastal areas.
-        <code>Tracking algorithms</code> based on noisy data were used to solve this problem.
+        <ul>        
+        <li>Developed a simulator for the detection hardware and environment, aimed at replicating real-world conditions and scenarios.
+        <li>Implemented realistic simulations of environmental factors such as network load and target movements.
+        <li>Utilized tracking algorithms based on noisy data to accurately simulate the detection process and evaluate the effectiveness of the hardware in different conditions.
+        <li>The simulator serves as a valuable tool for testing and optimizing detection systems, enhancing their performance and reliability in protecting coastal areas.
+        </ul>
       stack:
         - C/C++
         - Python
@@ -145,21 +134,23 @@
   address: Moscow, Russia
   site: https://corpkometa.ru/
   description: |
-    JSC "Comet Corporation" is a leading enterprise of the military-industrial complex in the 
-    field of creating <code>large information and control systems</code> for special purposes.
-    JSC "Corporation "Comet" carries out work in the following areas:<br/>
+    A leading enterprise in the military-industrial complex, 
+    specializing in large information and control systems for special purposes. Areas of focus include:<br/>
     <ul>
-    <li>creation of <code>space systems</code> for all-weather observation of the Earth and the World Ocean;</li>
-    <li>creation of a <code>space monitoring</code> system for outer space and identification of asteroid and comet hazards;</li>
-    <li>creation of a <code>global ocean monitoring system</code> using <code>underwater telecommunications</code> facilities.</li>
+    <li>Space systems for Earth and ocean observation</li>
+    <li>Space monitoring for outer space hazards</li>
+    <li>Global ocean monitoring using underwater telecommunications</li>
     </ul>
 
   projects:
-    - title: Continental shelf protection.
+    - title: Simulator of Command Panel for Detection Equipment for Continental shelf protection.
       description: |
-        A project to develop a <code>simulator</code> of a detection, 
-        recognition and <code>tracking</code> system that protects coastal areas.
-        <code>Tracking algorithms</code> based on noisy data were used to solve this problem.
+        <ul>
+        <li>Created a simulator for the command panel of detection equipment, designed to provide an interface for monitoring and controlling the detection system.
+        <li>Implemented tracking algorithms to analyze noisy data and make informed decisions for detecting and tracking targets in coastal areas.
+        <li>The simulator replicates the functionalities of a real command panel, allowing users to interact with and manage the detection system effectively.
+        <li>Provides a platform for training personnel in using the command panel and evaluating its performance under various scenarios, contributing to improved coastal protection measures.
+        <ul>
       stack:
         - C/C++
         - Python
@@ -174,14 +165,16 @@
   site: https://gidropribor.ru/
   description: |
     The State Scientific Center Joint-Stock Company Concern Marine Underwater Weapons - 
-    Gidropribor is a leading organization in the field of creating <code>marine underwater weapons</code> 
-    and <code>special-purpose underwater equipment</code>.
+    Gidropribor is a leading organization in the field of creating marine underwater weapons 
+    and special-purpose underwater equipment.
 
   projects:
     - title: Control Equipment Development
       description: |
-        I have developed software for the <code>formation of a combat mission</code> for special-purpose equipment.
-        Participated in the full testing cycle, including <code>field tests</code>.
+        <ul>
+        <li>Developed software for the formation of combat missions for special-purpose equipment.
+        <li>Participated in the complete testing cycle, including rigorous field tests, to ensure the software's reliability and effectiveness in real-world scenarios.
+        </ul>
       stack:
         - Python
         - drivers
@@ -189,23 +182,21 @@
 
     - title: Hydroacoustic Signal Synthesizer
       description: |
-        A research project.
-        Development of an <code>acoustic signal synthesizer</code> based on a regular <code>PC</code>. 
-        Development includes writing <code>low-level assembly code</code> and <code>machine commands</code>, 
-        and developing its own parallel data transfer protocol.
+        <ul>
+        <li>Participated in a research project to develop an acoustic signal synthesizer using a standard PC's CPU.
+        <li>The development process involved writing low-level assembly code and machine commands, and creating a custom parallel data transfer protocol to ensure efficient and precise signal synthesis.
+        </ul>
       stack:
         - C/C++
         - Turbo Vision
         - assembly
         - embedded
 
-    - title: Testing spot maintaining
+    - title: Testing workplace maintaining
       description: |
-        Preparation and maintenance of the test workplace:
         <ul>
-        <li>Computers and communication between them</li>
-        <li>Synthesizers and attenuators</li>
-        <li>Conducting tests</li>
+        <li>Oversaw the preparation and maintenance of the test workplace, ensuring optimal conditions for conducting tests.
+        <li>Responsibilities included setting up and maintaining computers and communication infrastructure, configuring synthesizers and attenuators, and facilitating the smooth execution of test procedures.
         </ul>
       stack:
         - System administration

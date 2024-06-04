@@ -10,21 +10,14 @@ title: Elchaninov Ian
 
 ## Overview
 
-Hello, my name is Ian.\
-I'am a `Python/Rust` software engineer.
-During career I've been in developing of `defencive systems` and `geological software` for the oil industry.
-On the way, starting in 2013, I came across a full range of tasks and solutions in the field of programming,
-from the low-level `embedded programming`, drivers writing to the high-loaded `microservices`, providing `API` to computational mathematical modules.\
-`Agile` methodologies, like `Scrum` and `Kanban` were actively used in the teams where I worked.\
-The developed code was subject to high requirements of industry standards:
+As a seasoned software engineer with over a decade of experience, I specialize in `Python` and `Rust`, with a proven track record in developing high-performance systems across various industries including `defense` and `oil & gas`. My expertise spans from low-level embedded programming to high-load microservices and APIs for complex computational modules. I am adept in `Agile` methodologies (`Scrum`, `Kanban`) and committed to best practices in software development, including:
 
-- Test coverage
-- Static Code Analyzers
-- Code review
-- Pull requests
-- CI/CD DevOps practices to deliver changes to prod as soon as possible
-- Azure (ex Microsoft Team Foundation Server)
-- Git commitizen, precommits
-- VS Code, NeoVim, Nu Shell, Sublime Text
+- Comprehensive test coverage
+- Static code analysis
+- Code reviews
+- Efficient pull request workflows
+- CI/CD DevOps practices
+- Proficiency with Azure DevOps, Git commitizen, pre-commit hooks
+- Versatile with VS Code, NeoVim, Nu Shell, and Sublime Text
 
 ---

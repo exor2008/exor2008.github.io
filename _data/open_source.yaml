@@ -11,15 +11,12 @@
     - url: https://www.instagram.com/pleiades_led
       verbose: Instagram
   long_description: |
-    A lamp based on an LED matrix running <code>Raspberry Pi Pico</code>. 
-    Designed for manufacturing from widely available materials. 
-    The firmware is written in the <code>Rust</code> language using the asynchronous 
-    framework for embedded programming <code>Embassy</code> (Embedded Rust). 
-    A driver has been written for the <code>ws2812b</code> LED device, 
-    as well as the <code>APDS-9960</code> gesture sensor. Bit-banging 
-    protocols are implemented using coprocessor programming (<code>PIO</code>) 
-    in a specialized <code>assembly language</code>, which makes them stable and time-accurate.
-    You can assemble one for yourself. Firmware and wiring scheme are free and available via <code>github</code> link.
+    <ul>
+    <li>Developed a gesture-controlled lamp using Raspberry Pi Pico and an LED matrix
+    <li>Firmware written in Rust utilizing the Embassy framework for asynchronous embedded programming.
+    <li>Implemented drivers for ws2812b LED device and APDS-9960 gesture sensor
+    <li>Used PIO for stable and precise bit-banging protocols.
+    </ul>
   stack:
     - Rust
     - embedded
@@ -36,14 +33,14 @@
     - url: https://youtu.be/3mVxf-AE9MU
       verbose: Demo
   long_description: |
-    A project to develop a flight controller based on the <code>Raspberry Pi Pico</code> platform and 
-    firmware for it in <code>Rust</code> language.
-    The 10 degrees of freedom IMU <code>MPU-9250</code> module (3-axis accelerometer, gyroscope and magnetometer) is used as a sensor.
-    At the moment, a driver has been written for the <code>MPU-9250</code> along calibration algorithms for each sensor. 
-    Data fusion is also implemented using the <code>Mahony filter</code>. 
-    FC can now determine <code>attitude</code> relative to the earth's magnetic field.
-    Debug panel was written in <code>Python</code> in both web and desktop versions.
-    In the future, a <code>PID</code> motor control loop will be developed.
+    <ul>
+    <li>Led a project to develop a flight controller based on the Raspberry Pi Pico platform, utilizing the Rust programming language for firmware development.
+    <li>Integrated a 10 degrees of freedom IMU module (MPU-9250) for sensor data acquisition, including accelerometer, gyroscope, and magnetometer readings.
+    <li>Developed drivers for the MPU-9250 sensor module and implemented calibration algorithms for each sensor to ensure accurate data measurements.
+    <li>Implemented data fusion using the Mahony filter, enabling the flight controller to determine attitude relative to the Earth's magnetic field.
+    <li>Created a debug panel in Python, available in both web and desktop versions, for monitoring and troubleshooting.
+    <li>Planned future development includes the implementation of a PID motor control loop for enhanced flight stability and control.
+    <ul>
   stack:
     - RP2040
     - Rust
@@ -64,16 +61,14 @@
     - url: https://youtu.be/pCPggrFf64g
       verbose: Demo
   long_description: |
-    A fluid simulator based on the <code>Navier-Stokes Equations</code>.
-    It is made in the form of a mathematical module on <code>Rust + CUDA</code>, 
-    a service that provides an API to this module on the <code>Rocket</code> web framework and a 
-    frontend on <code>THREE.js</code> for displaying fluid flow in 3D. The calculation is performed in 
-    parallel on <code>CUDA</code> kernels, which allows to observe the fluid in real time.
-    The scene with the initial conditions is uploaded in <code>gltf</code> format. 
-    After loading, the <code>3D model</code> is mapped to the calculated grid. 
-    The normals of the model are taken into account to calculate <code>collisions</code> of solids with a fluid.
-    Such simulators are used by <code>NASA</code> to calculate the <code>aerodynamic</code> qualities of spacecraft, 
-    as well as to <code>predict the weather</code>.
+    <ul>
+    <li>Developed a fluid simulator based on the Navier-Stokes Equations, implemented as a mathematical module using Rust and CUDA for parallel computation.
+    <li>Created a service with an API using the Rocket web framework to provide access to the fluid simulation module.
+    <li>Designed a frontend using THREE.js to visualize fluid flow in 3D, allowing real-time observation of fluid behavior.
+    <li>Utilized CUDA kernels for parallel computation, enabling efficient and real-time fluid simulation.
+    <li>Implemented collision detection between solids and fluid by considering the normals of the 3D model, enhancing simulation accuracy.
+    <li>The simulator's capabilities extend to applications in aerospace engineering for calculating aerodynamic qualities of spacecraft and weather prediction, similar to those used by NASA.
+    </ul>
   stack:
     - Rust
     - Rocket
@@ -92,16 +87,12 @@
     - url: https://youtu.be/HT2_h-bOYAo
       verbose: Demo
   long_description: |
-    Most often, the scale is not observed in the image of the <code>Solar system</code>. 
-    This is due to the fact that the distances between the planets are incomparably greater than their radiuses.
-    But thanks to computer interactive models, we have the opportunity to observe the real size of objects.
-    This project is a <code>simulator</code> of the Solar system, where all objects have values <code>as in nature</code>: 
-    <code>the radiuses, masses and velocities of objects, the size and inclination of their orbits</code>.
-    Thanks to a realistic physical model, it is possible to simulate "What if..." scenarios. 
-    What if we put a <code>black hole</code> in the center of our solar system, 
-    what if the speed of the <code>Earth</code> is 10 times less than in reality, etc.
-    Thanks to the architecture of the <code>Bevy Entity-Component-System</code> game engine, 
-    we can simulate tens of thousands of objects simultaneously in real time.
+    <ul>
+    <li>Developed a simulator of the Solar system with a focus on accurately representing the scale of celestial objects.
+    <li>Ensured that all objects, including planets, have realistic values such as radii, masses, velocities, and orbital characteristics.
+    <li>Utilized a realistic physical model to enable simulation of "What if..." scenarios, such as introducing a black hole at the center of the solar system or altering the speed of Earth.
+    <li>Leveraged the Bevy Entity-Component-System game engine architecture to simulate tens of thousands of objects simultaneously in real time, allowing for immersive and dynamic exploration of the Solar system.
+    </ul>
   stack:
     - Rust
     - Bevy game engine
@@ -113,14 +104,12 @@
     - url: https://github.com/exor2008/koldun
       verbose: GitHub
   long_description: |
-    DIY game console based on <code>RP PICO</code> platform and <code>Rust</code> language. <br/>
-    Solved tasks: 
     <ul>
-    <li><code>Driver</code> has been written for the display on the <code>ILI9486</code> chip</li>
-    <li>Fitting game logic and graphics in <code>256 Kb SRAM</code> and <code>2Mb FLASH</code> memory</li>
+    <li>Developed a do-it-yourself (DIY) game console based on the RP PICO platform and programmed in the Rust language.
+    <li>Writing a driver for the display using the ILI9486 chip to enable graphics rendering.
+    <li>Efficiently managing game logic and graphics within the limited memory constraints of 256 KB SRAM and 2 MB FLASH.
+    <li>Utilized a coprocessor (PIO) and specialized assembler to implement the display driver, enabling dynamic graphics with a high screen refresh rate.
     </ul>
-    The driver for the display is written using a coprocessor (<code>PIO</code>) in a <code>specialized assembler</code>, 
-    which allows to display dynamic graphics with a high screen refresh rate.
   stack:
     - RP2040
     - Rust
@@ -138,8 +127,12 @@
     - url: https://github.com/exor2008/ai-discord-bot-demo
       verbose: Discord API for OpenAI ChatGPT
   long_description: |
-    A set of <code>Discord</code> and <code>Telegram</code> bots for solving a number of tasks: 
-    from document management automation to providing <code>APIs</code> to well-known <code>AI</code> services.
+    <ul>
+    <li>Developed a comprehensive set of Discord and Telegram bots capable of handling various tasks, ranging from document management automation to providing APIs for well-known AI services.
+    <li>Implemented functionalities to automate document management processes and streamline workflow.
+    <li>Integrated APIs for accessing and utilizing popular AI services, enhancing bot capabilities and enabling advanced functionalities.
+    <li>Ensured seamless communication and interaction with users on both Discord and Telegram platforms.
+    </ul>
   stack:
     - Python
     - Discord
@@ -155,7 +148,12 @@
     - url: https://www.instagram.com/asymmetric_fpv
       verbose: Instagram
   long_description: |
-    Assembling, soldering and tuning FPV drones from scratch.
+    <ul>
+    <li>Assembled, soldered, and tuned FPV (First Person View) drones from scratch, ensuring precise construction and optimal performance.
+    <li>Applied expertise in drone assembly techniques to carefully select and integrate components for optimal functionality and durability.
+    <li>Conducted thorough testing and tuning procedures to fine-tune flight characteristics, ensuring stability, responsiveness, and efficiency.
+    <li>Leveraged hands-on experience and technical skills to troubleshoot and resolve any issues during the assembly and tuning process, ensuring the delivery of high-quality drones.
+    </ul>
   stack:
     - Inav
     - ExpressLRS
