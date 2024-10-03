@@ -19,5 +19,6 @@ As a seasoned software engineer with over a decade of experience, I specialize i
 - CI/CD DevOps practices
 - Proficiency with Azure DevOps, Git commitizen, pre-commit hooks
 - Versatile with VS Code, NeoVim, Nu Shell, and Sublime Text
+- Operating Systems: Windows, Linux (NixOS, Raspberry Pi Os, Ubuntu)
 
 ---
