@@ -97,6 +97,27 @@
     - Rust
     - Bevy game engine
 
+- title: Oktree
+  description: Fast octree implementation.
+  status: Done
+  links:
+    - url: https://crates.io/crates/oktree/
+      verbose: crates.io
+    - url: https://github.com/exor2008/oktree/
+      verbose: guthub
+    - url: https://docs.rs/oktree/latest/oktree/
+      verbose: Documentation
+  long_description: |
+    Optimizations:
+    <ul>
+    <li>Unsigned arithmetics, bitwise operations.
+    <li>Tree structure is represented by flat, reusable Pool. Removed data is marked only.
+    <li>Few memory allocations. heapless structures are used.
+    <li>No smart pointers (RC, RefCell e.t.c)
+    </ul>
+  stack:
+    - Rust
+
 - title: Game console
   description: Based on RP PI Pico and Rust
   status: Work in progress
