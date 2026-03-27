@@ -10,7 +10,7 @@ title: Elchaninov Ian
 
 ## Overview
 
-As a seasoned software engineer with over a decade of experience, I specialize in `Python` and `Rust`, with a proven track record in developing high-performance systems across various industries including `defense` and `oil & gas`. My expertise spans from low-level embedded programming to high-load microservices and APIs for complex computational modules. I am adept in `Agile` methodologies (`Scrum`, `Kanban`) and committed to best practices in software development, including:
+As a seasoned software engineer with over a decade of experience, I specialize in `Python` and `Rust`, with a proven track record in developing high-performance systems across various industries including `geology` and `oil & gas`. My expertise spans from low-level embedded programming to high-load microservices and APIs for complex computational modules. I am adept in `Agile` methodologies (`Scrum`, `Kanban`) and committed to best practices in software development, including:
 
 - Comprehensive test coverage
 - Static code analysis
